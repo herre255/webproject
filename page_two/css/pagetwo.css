@@ -1,0 +1,133 @@
+@font-face {
+	font-family: "Garamond";
+	src: url(../fonts/garamond/Garamond.tff);
+}
+.container {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #F0F0F0;
+	top: 0px;
+	left: 0px;
+}
+.tab1 {
+	height: 80px;
+	width: 274px;
+	position: absolute;
+	background: #3E3E3E;
+	border-radius: 10px;
+}
+.tab2 {
+	height: 80px;
+	width: 274px;
+	position: absolute;
+	background: #FFD600;
+	border-radius: 10px;
+	left: 274px;
+}
+.tab3 {
+	height: 80px;
+	width: 274px;
+	position: absolute;
+	background: white;
+	border-radius: 10px;
+	left: 548px;
+}
+.box {
+	width: 100%;
+	height: 728px;
+	position: absolute;
+	background: #F0F0F0;
+	top: 70px;
+	left: 0px;
+	z-index: 1;
+}
+.tag1 {
+	font-size: 30px;
+	font-family: Garamond;
+	position: absolute;
+	color: #FFD600;
+	top: -10px;
+	left: 90px;
+}
+.tag2 {
+	font-size: 30px;
+	font-family: Garamond;
+	position: absolute;
+	color: white;
+	top: -10px;
+	left: 350px;
+}
+.tag3 {
+	font-size: 30px;
+	font-family: Garamond;
+	position: absolute;
+	color: #3E3E3E;
+	top: -10px;
+	left: 605px;
+}
+.textbox {
+	width: 100px;
+	height: 200px;
+	position: absolute;
+	top: 200px;
+	left: 120px;
+}
+.descript {
+	font-family: Gill Sans;
+	font-weight: bold;
+	font-size: 96px;
+	position: fixed;
+	color: #FFD600;
+	z-index: 2;
+}
+.button {
+	width: 100px;
+	height: 100px;
+	background: url(../images/menuicon.png) no-repeat;
+	position: absolute;
+	left: 1340px;
+	z-index: 3;
+}
+.menu {
+	width: 142px;
+	height: 300px;
+	background: gray;
+	position: absolute;
+	top: 200px;
+	left: 1300px;
+	display: none;
+	z-index: 3;
+}
+.red {
+	background: url(../images/menuiconclicked.png) no-repeat;
+}
+.menu1 {
+	font-size: 14px;
+	font-family: Gill Sans;
+	color: white;
+	margin-left: 10px;
+	margin-bottom: 50px;
+	margin-top: 10px;
+}
+.menu2 {
+	font-size: 14px;
+	font-family: Gill Sans;
+	color: white;
+	margin-left: 10px;
+	margin-bottom: 50px;
+}
+.menu3 {
+	font-size: 14px;
+	font-family: Gill Sans;
+	color: white;
+	margin-left: 10px;
+	margin-bottom: 50px;
+}
+.menu4 {
+	font-size: 14px;
+	font-family: Gill Sans;
+	color: white;
+	margin-left: 10px;
+	margin-bottom: 50px;
+}

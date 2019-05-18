@@ -1,0 +1,227 @@
+@font-face {
+	font-family: "Garamond";
+	src: url(../fonts/garamond/Garamond.tff);
+}
+.container {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #F0F0F0;
+	top: 0px;
+	left: 0px;
+}
+.tab1 {
+	height: 80px;
+	width: 274px;
+	position: absolute;
+	background: #3E3E3E;
+	border-radius: 10px;
+}
+.tab2 {
+	height: 80px;
+	width: 274px;
+	position: absolute;
+	background: #FFD600;
+	border-radius: 10px;
+	left: 274px;
+}
+.tab3 {
+	height: 80px;
+	width: 274px;
+	position: absolute;
+	background: white;
+	border-radius: 10px;
+	left: 548px;
+}
+.tag1 {
+	font-size: 30px;
+	font-family: Garamond;
+	position: absolute;
+	color: #FFD600;
+	top: -10px;
+	left: 90px;
+}
+.tag2 {
+	font-size: 30px;
+	font-family: Garamond;
+	position: absolute;
+	color: white;
+	top: -10px;
+	left: 350px;
+}
+.tag3 {
+	font-size: 30px;
+	font-family: Garamond;
+	position: absolute;
+	color: #3E3E3E;
+	top: -10px;
+	left: 605px;
+}
+.box {
+	width: 100%;
+	height: 728px;
+	position: absolute;
+	background: #3E3E3E;
+	top: 70px;
+	left: 0px;
+	z-index: 0;
+}
+.hex1 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 205px;
+	left: 50px;
+	background: url(../images/hexagon.png) no-repeat;
+	background-size: cover;
+	z-index: 3;
+}
+.hex2 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 270px;
+	left: 50px;
+	background: url(../images/hexagon.png) no-repeat;
+	background-size: cover;
+	z-index: 3;
+}
+.hex3 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 335px;
+	left: 50px;
+	background: url(../images/hexagonclicked.png) no-repeat;
+	background-size: cover;
+	z-index: 3;
+}
+.name {
+	font-family: Gill Sans;
+	font-weight: bold;
+	font-size: 96px;
+	position: absolute;
+	top: 40px;
+	left: 300px;
+	z-index: 3;
+	color: #FFD600;
+}
+.menu1 {
+	font-family: Gill Sans;
+	font-size: 24px;
+	position: absolute;
+	top: 190px;
+	left: 110px;
+	color: #FFD600;
+	z-index: 3;
+}
+.menu2 {
+	font-family: Gill Sans;
+	font-size: 24px;
+	position: absolute;
+	top: 255px;
+	left: 110px;
+	color: #FFD600;
+	z-index: 3;
+}
+.menu3 {
+	font-family: Gill Sans;
+	font-size: 24px;
+	position: absolute;
+	top: 320px;
+	left: 110px;
+	color: #FFD600;
+	z-index: 3;
+}
+.textbox {
+	width: 780px;
+	height: 100px;
+	position: absolute;
+	z-index: 3;
+}
+.info {
+	font-family: Gill Sans;
+	font-size: 24px;
+	position: absolute;
+	top: 250px;
+	left: 300px;
+	color: #FFD600;
+	z-index: 3;
+}
+.image {
+	width: 630px;
+	height: 503px;
+	position: absolute;
+	top: 295px;
+	left: 800px;
+	background: url(../images/thyme.png) no-repeat;
+	z-index: 3;
+}
+.arrowforward {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 500px;
+	left: 1300px;
+	background: url(../images/arrowforward.png) no-repeat;
+	z-index: 3;
+}
+.arrowback {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 500px;
+	left: 100px;
+	background: url(../images/arrowback.png) no-repeat;
+	z-index: 3;
+}
+.button {
+	width: 100px;
+	height: 100px;
+	background: url(../images/menuicon.png) no-repeat;
+	position: absolute;
+	left: 1340px;
+	z-index: 3;
+}
+.menu {
+	width: 142px;
+	height: 300px;
+	background: gray;
+	position: absolute;
+	top: 200px;
+	left: 1300px;
+	display: none;
+	z-index: 3;
+}
+.red {
+	background: url(../images/menuiconclicked.png) no-repeat;
+}
+.m1 {
+	font-size: 14px;
+	font-family: Gill Sans;
+	color: white;
+	margin-left: 10px;
+	margin-bottom: 50px;
+	margin-top: 10px;
+}
+.m2 {
+	font-size: 14px;
+	font-family: Gill Sans;
+	color: white;
+	margin-left: 10px;
+	margin-bottom: 50px;
+}
+.m3 {
+	font-size: 14px;
+	font-family: Gill Sans;
+	color: white;
+	margin-left: 10px;
+	margin-bottom: 50px;
+}
+.m4 {
+	font-size: 14px;
+	font-family: Gill Sans;
+	color: white;
+	margin-left: 10px;
+	margin-bottom: 50px;
+}
